@@ -1,0 +1,18 @@
+Name:		Bruno Philippon
+Section:	3550.001
+Date:		12/7/22
+
+Description:
+
+This program reads plaintext and key from separate input files, and performs a simplified version of AES
+(Advanced Encryption System) while displaying the steps. The order of encryption is as follows:
+preprocessing, substitution, padding, row shifting, parity bit manipulation, and column mixing.
+The result of each step is printed to the console and to an output file of the users choosing.
+
+How to Compile:
+
+	g++ encrypt.c
+
+How to Run:
+
+	./a.out
