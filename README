@@ -11,7 +11,7 @@ The result of each step is printed to the console and to an output file of the u
 
 How to Compile:
 
-	g++ encrypt.c
+	gcc encrypt.c
 
 How to Run:
 
